@@ -1,0 +1,14 @@
+{
+  "name": "debugging-node-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.mjs",
+    "start:debug": "NODE_INSPECT_RESUME_ON_START=1 node inspect index.mjs",
+    "start:chrome-debug": "node --inspect index.mjs"
+  },
+  "author": "nirjankhadka",
+  "license": "ISC"
+}
